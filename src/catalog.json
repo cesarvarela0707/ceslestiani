@@ -1,0 +1,128 @@
+[
+  {
+    "id": "LC-001",
+    "clave_visual": "pulseras_liston_medalla",
+    "precio_usd": 2,
+    "modalidad": "consulta",
+    "etiqueta_modalidad_es": "Consulta",
+    "etiqueta_modalidad_en": "Ask first",
+    "descripcion_literal_es": "Pulseras de listón con medallita",
+    "descripcion_literal_en": "Ribbon bracelets with medallion",
+    "nombre_comercial_es": "Vínculo",
+    "nombre_comercial_en": "Vínculo",
+    "descripcion_comercial_es": "Un lazo suave, color visible y una medallita al centro. La pieza más ligera de la colección.",
+    "descripcion_comercial_en": "A soft ribbon, visible color and a medallion at the center. The lightest piece in the collection.",
+    "imagen_original": "assets/productos/originales/pulseras_liston_medalla.jpg",
+    "imagen_web": "assets/productos/web/pulseras_liston_medalla.webp",
+    "recortes_autenticos": [
+      "assets/productos/recortes/pulseras_liston_medalla_cuadrado.webp",
+      "assets/productos/recortes/pulseras_liston_medalla_detalle.webp"
+    ],
+    "restriccion": "La foto muestra varias pulseras de listón con medallas; no fijar colores únicos como stock definitivo."
+  },
+  {
+    "id": "LC-002",
+    "clave_visual": "cruces_blancas_doradas",
+    "precio_usd": 3,
+    "modalidad": "preorden",
+    "etiqueta_modalidad_es": "Preorden",
+    "etiqueta_modalidad_en": "Pre-order",
+    "descripcion_literal_es": "Pequeñas cruces blancas de borde dorado",
+    "descripcion_literal_en": "Small white crosses with gold-toned edge",
+    "nombre_comercial_es": "Destello",
+    "nombre_comercial_en": "Destello",
+    "descripcion_comercial_es": "Blanco brillante y borde dorado en una pieza pequeña que resalta con facilidad.",
+    "descripcion_comercial_en": "Bright white and a gold-toned edge in a small piece that stands out easily.",
+    "imagen_original": "assets/productos/originales/cruces_blancas_doradas.jpg",
+    "imagen_web": "assets/productos/web/cruces_blancas_doradas.webp",
+    "recortes_autenticos": [
+      "assets/productos/recortes/cruces_blancas_doradas_cuadrado.webp",
+      "assets/productos/recortes/cruces_blancas_doradas_detalle.webp"
+    ],
+    "restriccion": "No precisar si son aretes, dijes u otro uso sin confirmación."
+  },
+  {
+    "id": "LC-003",
+    "clave_visual": "cruces_corazon_rosa",
+    "precio_usd": 3,
+    "modalidad": "preorden",
+    "etiqueta_modalidad_es": "Preorden",
+    "etiqueta_modalidad_en": "Pre-order",
+    "descripcion_literal_es": "Cruces claras con corazón rosado",
+    "descripcion_literal_en": "Light-colored crosses with pink heart",
+    "nombre_comercial_es": "Ternura",
+    "nombre_comercial_en": "Ternura",
+    "descripcion_comercial_es": "Una cruz clara con un corazón rosado en relieve, suave y central.",
+    "descripcion_comercial_en": "A light-colored cross with a raised pink heart, soft and centered.",
+    "imagen_original": "assets/productos/originales/cruces_corazon_rosa.jpg",
+    "imagen_web": "assets/productos/web/cruces_corazon_rosa.webp",
+    "recortes_autenticos": [
+      "assets/productos/recortes/cruces_corazon_rosa_cuadrado.webp",
+      "assets/productos/recortes/cruces_corazon_rosa_detalle.webp"
+    ],
+    "restriccion": "Se ve una cruz sostenida sobre la mano y varias detrás."
+  },
+  {
+    "id": "LC-004",
+    "clave_visual": "pulseras_concha_dorada",
+    "precio_usd": 3,
+    "modalidad": "preorden",
+    "etiqueta_modalidad_es": "Preorden",
+    "etiqueta_modalidad_en": "Pre-order",
+    "descripcion_literal_es": "Pulseras con concha dorada",
+    "descripcion_literal_en": "Bracelets with gold-toned shell",
+    "nombre_comercial_es": "Orilla",
+    "nombre_comercial_en": "Orilla",
+    "descripcion_comercial_es": "Listones frescos y una concha dorada que se roba la mirada.",
+    "descripcion_comercial_en": "Fresh ribbons and a gold-toned shell that steals the glance.",
+    "imagen_original": "assets/productos/originales/pulseras_concha_dorada.jpg",
+    "imagen_web": "assets/productos/web/pulseras_concha_dorada.webp",
+    "recortes_autenticos": [
+      "assets/productos/recortes/pulseras_concha_dorada_cuadrado.webp",
+      "assets/productos/recortes/pulseras_concha_dorada_detalle.webp"
+    ],
+    "restriccion": "Se ven tonos turquesa, verde claro y beige; no afirmar stock."
+  },
+  {
+    "id": "LC-005",
+    "clave_visual": "pulsera_medalla_concha",
+    "precio_usd": 3,
+    "modalidad": "preorden",
+    "etiqueta_modalidad_es": "Preorden",
+    "etiqueta_modalidad_en": "Pre-order",
+    "descripcion_literal_es": "Pulsera rosada con medallita y concha",
+    "descripcion_literal_en": "Pink bracelet with medallion and shell",
+    "nombre_comercial_es": "Marea rosa",
+    "nombre_comercial_en": "Marea rosa",
+    "descripcion_comercial_es": "Rosado, turquesa y dorado en una mezcla pequeña con mucha personalidad.",
+    "descripcion_comercial_en": "Pink, turquoise and gold-toned details in a small piece with a lot of personality.",
+    "imagen_original": "assets/productos/originales/pulsera_medalla_concha.jpg",
+    "imagen_web": "assets/productos/web/pulsera_medalla_concha.webp",
+    "recortes_autenticos": [
+      "assets/productos/recortes/pulsera_medalla_concha_cuadrado.webp",
+      "assets/productos/recortes/pulsera_medalla_concha_detalle.webp"
+    ],
+    "restriccion": "Se ve la combinación rosada, detalle turquesa y concha dorada."
+  },
+  {
+    "id": "LC-006",
+    "clave_visual": "cruces_corazon_color",
+    "precio_usd": 3,
+    "modalidad": "preorden",
+    "etiqueta_modalidad_es": "Preorden",
+    "etiqueta_modalidad_en": "Pre-order",
+    "descripcion_literal_es": "Cruces claras con pequeños corazones de color",
+    "descripcion_literal_en": "Light-colored crosses with small colored hearts",
+    "nombre_comercial_es": "Matiz",
+    "nombre_comercial_en": "Matiz",
+    "descripcion_comercial_es": "Cruces claras con corazones en azul, verde y rosado, cada una con su propio acento.",
+    "descripcion_comercial_en": "Light-colored crosses with blue, green and pink hearts, each with its own little accent.",
+    "imagen_original": "assets/productos/originales/cruces_corazon_color.jpg",
+    "imagen_web": "assets/productos/web/cruces_corazon_color.webp",
+    "recortes_autenticos": [
+      "assets/productos/recortes/cruces_corazon_color_cuadrado.webp",
+      "assets/productos/recortes/cruces_corazon_color_detalle.webp"
+    ],
+    "restriccion": "Se ven varias cruces con corazones en azul, verde y rosado."
+  }
+]

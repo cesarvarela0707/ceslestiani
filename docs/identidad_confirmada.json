@@ -1,0 +1,32 @@
+{
+  "marca": "Luz Celestia",
+  "subtitulo_del_logo": "Catholic Merchandise",
+  "instagram_usuario": "@luzcelestia.ni",
+  "instagram_url": "https://www.instagram.com/luzcelestia.ni/",
+  "idiomas": [
+    "es",
+    "en"
+  ],
+  "estructura_web": "landing page boutique estática en una sola experiencia, con rutas /es/ y /en/",
+  "numero_productos_fijo": 6,
+  "modo_compra": "únicamente enlace al perfil oficial de Instagram",
+  "paleta_del_logo_aproximada": {
+    "marfil": "#FFFBF5",
+    "celeste": "#C7E4F3",
+    "rosa": "#FEDFD9"
+  },
+  "autorizacion_fotografias": "El usuario confirma que las emprendedoras tomaron las fotografías de sus propios productos y autorizan utilizarlas en este sitio.",
+  "alcance": "Proyecto pequeño de feria escolar con uso comercial real; NO tienda online; NO ampliar catálogo.",
+  "restricciones": [
+    "sin base de datos",
+    "sin backend",
+    "sin API",
+    "sin sistema de pagos",
+    "sin carritos",
+    "sin formularios",
+    "sin WhatsApp",
+    "sin login",
+    "sin futuro ecommerce",
+    "sin inventar características/stock/envíos"
+  ]
+}

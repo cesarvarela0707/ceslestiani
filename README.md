@@ -1,63 +1,29 @@
-# Luz Celestia · V5 lista para Vercel
+# Luz Celestia — V11 boutique editorial
 
-**Sitio terminado:** landing boutique estática bilingüe para el emprendimiento Luz Celestia, con exactamente seis productos reales. No usa backend ni base de datos. El único contacto para comprar es [@luzcelestia.ni](https://www.instagram.com/luzcelestia.ni/).
+Sitio estático, bilingüe y preparado para Vercel. Exactamente seis piezas reales. Precios originales: US$2 para la pulsera de listón con medalla y US$3 para las otras cinco referencias, en modalidad preorden. Instagram es el único canal comercial.
 
-## Publicar en Vercel (recomendado: GitHub)
+## Ejecutar
 
-1. Descomprime el ZIP en tu computadora. **La carpeta `LUZ_CELESTIA_V5_VERCEL` es la raíz del proyecto.**
-2. Sube el contenido de esa carpeta a un repositorio de GitHub (no subas el ZIP sin extraer).
-3. Entra a [vercel.com/new](https://vercel.com/new), conecta GitHub y elige ese repositorio.
-4. La configuración ya está en `vercel.json`. Comprueba que indique **Framework: Other**, **Build Command: `npm run build`**, **Output Directory: `dist`** y raíz del proyecto como `./`.
-5. Haz clic en **Deploy**. Al finalizar, Vercel te mostrará el enlace público.
-6. Prueba `/es/` y `/en/` en ese enlace, abre un producto, revisa su precio y verifica Instagram.
+Necesitás Node.js 20 o superior.
 
-Si quieres **publicar directamente desde tu PC sin GitHub**:
-
-```powershell
-cd RUTA\A\LUZ_CELESTIA_V5_VERCEL
-npm install -g vercel
-vercel login
-vercel --prod
 ```
-
-Sigue las preguntas de Vercel; el archivo de configuración se encargará de indicar cómo construir y qué carpeta publicar. **No hay dominio público hasta que completes el despliegue**.
-
-## Abrir la web en tu computadora
-
-Instala Node.js 20 o superior. Abre una terminal en la carpeta del proyecto y ejecuta:
-
-```powershell
-npm run dev
-```
-
-Abre `http://localhost:4321/` en tu navegador. Para revisar el resultado compilado:
-
-```powershell
 npm run build
 npm test
 npm run preview
 ```
 
-`dist/` ya trae una copia compilada de la web. Si modificas el catálogo o el diseño, ejecuta `npm run build` de nuevo.
+Luego visitá `http://127.0.0.1:4321/`. El inicio abre inglés por defecto; el selector ES/EN guarda la preferencia elegida. La carpeta compilada es `dist/`.
 
-## Qué contiene
+## Publicar en el Vercel existente
 
-- `src/catalog.json` — exactamente seis productos, precios y modalidades de consulta/preorden.
-- `src/locales.json` — traducciones completas español/inglés.
-- `src/style.css` y `src/app.js` — estilos, interacción y galería de detalle.
-- `scripts/build.mjs` — construcción del HTML estático.
-- `assets/logo/` — logo original y versión de contraste, sin cambiar su forma.
-- `assets/productos/` — originales y recortes fieles.
-- `dist/` — página estática resultante de la compilación.
-- `vercel.json` — configuración de publicación automática.
+Subí esta carpeta al repositorio GitHub ya conectado al proyecto Vercel. Se utiliza `vercel.json`: build `npm run build`, output `dist`. No hay que crear una base de datos, añadir secretos ni registrar servicios externos. Aprobá el despliegue antes de reemplazar la versión pública.
 
-## Reglas respetadas
+## Recursos visuales
 
-- Solo seis productos; Vínculo US$2, otros cinco US$3 por preorden.
-- Español e inglés; alternador ES/EN.
-- Instagram oficial: `https://www.instagram.com/luzcelestia.ni/`.
-- Sin carrito, pagos, formularios, registro, API, backend ni base de datos.
-- El logo original y todas las fotografías originales se conservan. La versión de contraste del logo mejora la legibilidad sin cambiar composición o símbolos; los acercamientos son recortes de fotos reales.
-- Nunca se inventan variantes o ángulos de cámara.
+`assets/productos/originales/` conserva las fotografías reales. `assets/productos/campaign-v10/` contiene seis composiciones nuevas y una portada construidas exclusivamente con esas fotos reales. No son ángulos fotográficos nuevos ni imágenes de piezas inventadas. Se incluye `scripts/create_campaign_v10.py` para regenerarlas.
 
-Después de publicar, puedes añadir tu dominio personalizado y una imagen Open Graph con URL absoluta cuando conozcas la URL final.
+Los archivos `PREVIEW_en_1440.png`, `PREVIEW_en_390.png` y `PREVIEW_es_390.png` son capturas locales de verificación. No sustituyen revisar la web en la URL pública después del despliegue.
+
+## Límites respetados
+
+No hay carrito, pagos, login, formulario, backend ni base de datos. Ningún vínculo comercial distinto a `https://www.instagram.com/luzcelestia.ni/`.

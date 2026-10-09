@@ -1,8 +1,116 @@
 [
-{"id":"pulseras_liston_medalla","price":2,"en":{"name":"Ribbon & cross","description":"Ribbon bracelets with a round cross medallion. Explore the colours in the original photo.","detail":"A small cross, framed in colour."},"es":{"name":"Listón y cruz","description":"Pulseras de listón con medallita redonda de cruz. Mirá los colores en la foto original.","detail":"Una pequeña cruz rodeada de color."}},
-{"id":"cruces_blancas_doradas","price":3,"en":{"name":"Gold-edged cross","description":"Ivory-coloured crosses with a gold-coloured edge, a small cross at the centre and a circular ring.","detail":"The gold-coloured edge follows every contour."},"es":{"name":"Cruz con borde dorado","description":"Cruces claras con borde dorado, una pequeña cruz al centro y argolla circular.","detail":"El borde dorado recorre todo el contorno."}},
-{"id":"cruces_corazon_rosa","price":3,"en":{"name":"Pink-heart cross","description":"A light-coloured cross with a raised pink heart and a small hole at the top.","detail":"Look closer at the heart’s textured surface."},"es":{"name":"Cruz de corazón rosado","description":"Cruz clara con corazón rosado en relieve y un pequeño orificio arriba.","detail":"Acercate a la textura del corazón."}},
-{"id":"pulseras_concha_dorada","price":3,"en":{"name":"Ribbon & shell","description":"Teal, mint and beige ribbon bracelets, each with a gold-coloured shell at the centre.","detail":"The ribbon runs through the shell."},"es":{"name":"Listón y concha","description":"Pulseras de listón en tonos azul verdoso, menta y beige, con concha dorada al centro.","detail":"El listón atraviesa la concha."}},
-{"id":"pulsera_medalla_concha","price":3,"en":{"name":"Pink ribbon duo","description":"A pink ribbon bracelet with two charms: a turquoise cross medallion and a gold-coloured shell.","detail":"Two charms, one pink ribbon."},"es":{"name":"Dúo en listón rosado","description":"Pulsera de listón rosado con dos adornos: medallita turquesa de cruz y concha dorada.","detail":"Dos adornos en un mismo listón."}},
-{"id":"cruces_corazon_color","price":3,"en":{"name":"Colour-heart cross","description":"Light-coloured crosses with blue, green or burgundy hearts in ornate gold-coloured frames and brown hanging ribbons.","detail":"Three heart colours. An intricate frame."},"es":{"name":"Cruz de corazón a color","description":"Cruces claras con corazones azul, verde o vino, marco dorado decorado y listón café para colgar.","detail":"Tres colores de corazón y un marco con detalles."}}
+  {
+    "id": "piece-1",
+    "precio_usd": 2,
+    "modalidad": "consulta",
+    "nombre_comercial_es": "Lazo claro",
+    "nombre_comercial_en": "Soft Bow",
+    "descripcion_literal_es": "Pulseras de listón con medallita de cruz",
+    "descripcion_literal_en": "Ribbon bracelets with a small cross medallion",
+    "descripcion_comercial_es": "Una misma idea en varios colores: listón suave y una cruz pequeña al centro de la caída.",
+    "descripcion_comercial_en": "The same idea in several colorways: a soft ribbon and a tiny cross resting at the center.",
+    "detalle_foco_es": "EL NUDO Y LA MEDALLA",
+    "detalle_foco_en": "THE KNOT AND THE MEDALLION",
+    "imagen_original": "assets/productos/originales/pulseras_liston_medalla.jpg",
+    "imagen_web": "assets/productos/campaign-v10/pulseras_liston_medalla_campaign.webp",
+    "recortes_autenticos": [
+      "assets/productos/web/pulseras_liston_medalla.webp",
+      "assets/productos/recortes/pulseras_liston_medalla_detalle.webp"
+    ]
+  },
+  {
+    "id": "piece-2",
+    "precio_usd": 3,
+    "modalidad": "preorden",
+    "nombre_comercial_es": "Cruz marfil",
+    "nombre_comercial_en": "Ivory Cross",
+    "descripcion_literal_es": "Cruces blancas con borde dorado",
+    "descripcion_literal_en": "White crosses with gold-toned edges",
+    "descripcion_comercial_es": "La silueta es limpia; el borde dorado y la cruz pequeña le dan firmeza.",
+    "descripcion_comercial_en": "A clean silhouette, sharpened by the gold-toned edge and the smaller cross in the middle.",
+    "detalle_foco_es": "EL BORDE DORADO",
+    "detalle_foco_en": "THE GOLD EDGE",
+    "imagen_original": "assets/productos/originales/cruces_blancas_doradas.jpg",
+    "imagen_web": "assets/productos/campaign-v10/cruces_blancas_doradas_campaign.webp",
+    "recortes_autenticos": [
+      "assets/productos/web/cruces_blancas_doradas.webp",
+      "assets/productos/recortes/cruces_blancas_doradas_detalle.webp"
+    ]
+  },
+  {
+    "id": "piece-3",
+    "precio_usd": 3,
+    "modalidad": "preorden",
+    "nombre_comercial_es": "Corazón pleno",
+    "nombre_comercial_en": "Full Heart",
+    "descripcion_literal_es": "Cruces claras con corazón rosado en relieve",
+    "descripcion_literal_en": "Pale crosses with a raised pink heart",
+    "descripcion_comercial_es": "El corazón se levanta de la superficie y cambia por completo la lectura de la cruz.",
+    "descripcion_comercial_en": "The heart rises off the surface, changing the entire read of the cross.",
+    "detalle_foco_es": "EL RELIEVE ROSADO",
+    "detalle_foco_en": "THE RAISED HEART",
+    "imagen_original": "assets/productos/originales/cruces_corazon_rosa.jpg",
+    "imagen_web": "assets/productos/campaign-v10/cruces_corazon_rosa_campaign.webp",
+    "recortes_autenticos": [
+      "assets/productos/web/cruces_corazon_rosa.webp",
+      "assets/productos/recortes/cruces_corazon_rosa_detalle.webp"
+    ]
+  },
+  {
+    "id": "piece-4",
+    "precio_usd": 3,
+    "modalidad": "preorden",
+    "nombre_comercial_es": "Concha dorada",
+    "nombre_comercial_en": "Golden Shell",
+    "descripcion_literal_es": "Pulseras de listón con concha dorada",
+    "descripcion_literal_en": "Ribbon bracelets with a gold-toned shell",
+    "descripcion_comercial_es": "La concha metálica toma la luz y contrasta con listones suaves en tonos fríos y neutros.",
+    "descripcion_comercial_en": "The shell catches the light and contrasts with soft ribbons in cool and neutral tones.",
+    "detalle_foco_es": "BRILLO SOBRE TELA",
+    "detalle_foco_en": "SHINE AGAINST FABRIC",
+    "imagen_original": "assets/productos/originales/pulseras_concha_dorada.jpg",
+    "imagen_web": "assets/productos/campaign-v10/pulseras_concha_dorada_campaign.webp",
+    "recortes_autenticos": [
+      "assets/productos/web/pulseras_concha_dorada.webp",
+      "assets/productos/recortes/pulseras_concha_dorada_detalle.webp"
+    ]
+  },
+  {
+    "id": "piece-5",
+    "precio_usd": 3,
+    "modalidad": "preorden",
+    "nombre_comercial_es": "Doble dije",
+    "nombre_comercial_en": "Twin Charms",
+    "descripcion_literal_es": "Pulsera rosada con medallita y concha",
+    "descripcion_literal_en": "Pink ribbon with a medallion and shell",
+    "descripcion_comercial_es": "Una sola cinta sostiene dos acentos distintos: cruz turquesa y concha dorada.",
+    "descripcion_comercial_en": "One ribbon holds two accents at once: a turquoise cross and a gold-toned shell.",
+    "detalle_foco_es": "LOS DOS DIJES",
+    "detalle_foco_en": "THE TWO CHARMS",
+    "imagen_original": "assets/productos/originales/pulsera_medalla_concha.jpg",
+    "imagen_web": "assets/productos/campaign-v10/pulsera_medalla_concha_campaign.webp",
+    "recortes_autenticos": [
+      "assets/productos/web/pulsera_medalla_concha.webp",
+      "assets/productos/recortes/pulsera_medalla_concha_detalle.webp"
+    ]
+  },
+  {
+    "id": "piece-6",
+    "precio_usd": 3,
+    "modalidad": "preorden",
+    "nombre_comercial_es": "Trío de corazones",
+    "nombre_comercial_en": "Heart Trio",
+    "descripcion_literal_es": "Cruces claras con corazones de colores",
+    "descripcion_literal_en": "Pale crosses with colored hearts",
+    "descripcion_comercial_es": "La forma se repite, pero cambia el centro: azul, verde y rosado sobre la misma cruz clara.",
+    "descripcion_comercial_en": "The shape stays the same while the center shifts: blue, green, and pink on the same pale cross.",
+    "detalle_foco_es": "EL CORAZÓN DE COLOR",
+    "detalle_foco_en": "THE COLORED HEART",
+    "imagen_original": "assets/productos/originales/cruces_corazon_color.jpg",
+    "imagen_web": "assets/productos/campaign-v10/cruces_corazon_color_campaign.webp",
+    "recortes_autenticos": [
+      "assets/productos/web/cruces_corazon_color.webp",
+      "assets/productos/recortes/cruces_corazon_color_detalle.webp"
+    ]
+  }
 ]

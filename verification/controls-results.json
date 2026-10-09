@@ -1,0 +1,27 @@
+{
+  "results": [
+    {
+      "width": 360,
+      "themePersistence": "pass",
+      "normalMotion": "enabled",
+      "noReloadLanguage": "pass",
+      "repeatedLanguageSwitches": 5,
+      "historyBackForward": "pass",
+      "eventCleanup": "pass",
+      "themeAccessibleState": "pass",
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "themePersistence": "pass",
+      "normalMotion": "enabled",
+      "noReloadLanguage": "pass",
+      "repeatedLanguageSwitches": 5,
+      "historyBackForward": "pass",
+      "eventCleanup": "pass",
+      "themeAccessibleState": "pass",
+      "horizontalOverflow": false
+    }
+  ],
+  "errors": []
+}

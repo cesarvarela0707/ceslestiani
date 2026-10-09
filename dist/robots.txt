@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://ceslestiani.vercel.app/sitemap.xml

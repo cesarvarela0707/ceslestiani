@@ -26,14 +26,14 @@
     "footer": "Faith, in the details.",
     "close": "Close detail",
     "campaign": "Campaign",
-    "detail": "Close-up",
+    "detail": "HD detail",
     "original": "Original photo",
     "swipe": "Swipe or use the arrows to explore",
     "previous": "Previous image",
     "next": "Next image",
     "zoom": "Enlarge image",
     "unzoom": "Fit image",
-    "note": "Styled campaign image. Check the original photo for the actual accessory.",
+    "note": "AI-recreated scenes. Compare the original photo to confirm the actual accessory.",
     "preNote": "This piece is available for preorder. Confirm colours and timing with us on Instagram.",
     "availNote": "Ask us about colours and availability on Instagram.",
     "order": "Ask about this piece",
@@ -42,7 +42,11 @@
     "top": "Back to top",
     "copy": "Copy piece name",
     "copied": "Name copied",
-    "copyFailed": "Select the name above"
+    "copyFailed": "Select the name above",
+    "lifestyle": "In hand",
+    "themeLight": "Switch to light mode",
+    "themeDark": "Switch to dark mode",
+    "theme": "Appearance"
   },
   "es": {
     "skip": "Ir a la colección",
@@ -71,14 +75,14 @@
     "footer": "La fe, en los detalles.",
     "close": "Cerrar detalle",
     "campaign": "Campaña",
-    "detail": "Acercamiento",
+    "detail": "Detalle HD",
     "original": "Foto original",
     "swipe": "Deslizá o usá las flechas para explorar",
     "previous": "Imagen anterior",
     "next": "Imagen siguiente",
     "zoom": "Ampliar imagen",
     "unzoom": "Ajustar imagen",
-    "note": "Imagen de campaña ambientada. Consultá la foto original para ver el accesorio real.",
+    "note": "Escenas recreadas con IA. Compará con la foto original para confirmar el accesorio real.",
     "preNote": "Esta pieza está en preorden. Confirmá colores y fecha con nosotros por Instagram.",
     "availNote": "Consultanos los colores y la disponibilidad por Instagram.",
     "order": "Consultar esta pieza",
@@ -87,6 +91,10 @@
     "top": "Volver arriba",
     "copy": "Copiar nombre de la pieza",
     "copied": "Nombre copiado",
-    "copyFailed": "Seleccioná el nombre de arriba"
+    "copyFailed": "Seleccioná el nombre de arriba",
+    "lifestyle": "En mano",
+    "themeLight": "Activar modo claro",
+    "themeDark": "Activar modo oscuro",
+    "theme": "Apariencia"
   }
 }

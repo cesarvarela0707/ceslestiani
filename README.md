@@ -1,63 +1,31 @@
-# Luz Celestia · V5 lista para Vercel
+# Luz Celestia — boutique editorial
 
-**Sitio terminado:** landing boutique estática bilingüe para el emprendimiento Luz Celestia, con exactamente seis productos reales. No usa backend ni base de datos. El único contacto para comprar es [@luzcelestia.ni](https://www.instagram.com/luzcelestia.ni/).
+Sitio estático bilingüe de accesorios católicos. Seis referencias, precios US$2/US$3 y contacto exclusivo por Instagram. Sin dependencias de ejecución ni servicios externos.
 
-## Publicar en Vercel (recomendado: GitHub)
+## Ejecutar
 
-1. Descomprime el ZIP en tu computadora. **La carpeta `LUZ_CELESTIA_V5_VERCEL` es la raíz del proyecto.**
-2. Sube el contenido de esa carpeta a un repositorio de GitHub (no subas el ZIP sin extraer).
-3. Entra a [vercel.com/new](https://vercel.com/new), conecta GitHub y elige ese repositorio.
-4. La configuración ya está en `vercel.json`. Comprueba que indique **Framework: Other**, **Build Command: `npm run build`**, **Output Directory: `dist`** y raíz del proyecto como `./`.
-5. Haz clic en **Deploy**. Al finalizar, Vercel te mostrará el enlace público.
-6. Prueba `/es/` y `/en/` en ese enlace, abre un producto, revisa su precio y verifica Instagram.
+Con Node.js 20 o superior:
 
-Si quieres **publicar directamente desde tu PC sin GitHub**:
-
-```powershell
-cd RUTA\A\LUZ_CELESTIA_V5_VERCEL
-npm install -g vercel
-vercel login
-vercel --prod
 ```
-
-Sigue las preguntas de Vercel; el archivo de configuración se encargará de indicar cómo construir y qué carpeta publicar. **No hay dominio público hasta que completes el despliegue**.
-
-## Abrir la web en tu computadora
-
-Instala Node.js 20 o superior. Abre una terminal en la carpeta del proyecto y ejecuta:
-
-```powershell
-npm run dev
-```
-
-Abre `http://localhost:4321/` en tu navegador. Para revisar el resultado compilado:
-
-```powershell
 npm run build
 npm test
 npm run preview
 ```
 
-`dist/` ya trae una copia compilada de la web. Si modificas el catálogo o el diseño, ejecuta `npm run build` de nuevo.
+Abrir http://localhost:4321. El primer ingreso abre inglés y el diseño azul oscuro. Los controles EN 🇺🇸 / ES 🇪🇸 cambian el idioma sin recargar; idioma y tema se conservan en el navegador. También se puede entrar directamente a /es/ o /en/.
 
-## Qué contiene
+## Archivos
 
-- `src/catalog.json` — exactamente seis productos, precios y modalidades de consulta/preorden.
-- `src/locales.json` — traducciones completas español/inglés.
-- `src/style.css` y `src/app.js` — estilos, interacción y galería de detalle.
-- `scripts/build.mjs` — construcción del HTML estático.
-- `assets/logo/` — logo original y versión de contraste, sin cambiar su forma.
-- `assets/productos/` — originales y recortes fieles.
-- `dist/` — página estática resultante de la compilación.
-- `vercel.json` — configuración de publicación automática.
+- `src/`: catálogo, textos, CSS e interacción.
+- `scripts/build.mjs`: genera las dos versiones y limpia dist antes de compilar.
+- `assets/campaign/`: hero, cierre, seis escenas elegantes, seis detalles HD y seis escenas en mano.
+- `assets/originals/`: las seis fotos reales sin modificar.
+- `assets/logo/`: logo oficial y recorte del mismo para cabecera/pie; filtro SVG de fondo en la presentación, sin redibujar ni recolorear.
+- `dist/`: sitio compilado, listo para servir.
+- `verification/`: comparación visual, pruebas y capturas cuando se hayan realizado.
 
-## Reglas respetadas
+Leer `VERIFICACION_Y_FIDELIDAD.md` para distinguir la campaña ambientada de las fotos reales. Leer `ACTUALIZAR_VERCEL.md` para reemplazar la versión existente.
 
-- Solo seis productos; Vínculo US$2, otros cinco US$3 por preorden.
-- Español e inglés; alternador ES/EN.
-- Instagram oficial: `https://www.instagram.com/luzcelestia.ni/`.
-- Sin carrito, pagos, formularios, registro, API, backend ni base de datos.
-- El logo original y todas las fotografías originales se conservan. La versión de contraste del logo mejora la legibilidad sin cambiar composición o símbolos; los acercamientos son recortes de fotos reales.
-- Nunca se inventan variantes o ángulos de cámara.
+Dos temas: azul noche original y champagne/rosé claro, manteniendo el logo sobre azul. Instagram con icono y degradado; controles suaves y soporte de movimiento reducido. La galería conserva tres escenas útiles y muestra la foto original en un desplegable separado.
 
-Después de publicar, puedes añadir tu dominio personalizado y una imagen Open Graph con URL absoluta cuando conozcas la URL final.
+Las capturas y resultados del navegador están en `verification/`. Las pruebas de navegador necesitan Playwright y Chromium instalados; no son necesarios para compilar o alojar el sitio. El recorrido principal captura con movimiento reducido para estabilizar las comparaciones; `controls-review.mjs` comprueba interacciones con movimiento normal, cambios repetidos de idioma, historial y persistencia.

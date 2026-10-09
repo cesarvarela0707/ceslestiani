@@ -1,112 +1,26 @@
 {
-  "results": [
-    {
-      "lang": "en",
-      "width": 360,
-      "HD": [
-        1536,
-        1024
-      ],
-      "horizontalOverflow": false
-    },
-    {
-      "lang": "en",
-      "width": 390,
-      "HD": [
-        1536,
-        1024
-      ],
-      "horizontalOverflow": false
-    },
-    {
-      "lang": "en",
-      "width": 430,
-      "HD": [
-        1536,
-        1024
-      ],
-      "horizontalOverflow": false
-    },
-    {
-      "lang": "en",
-      "width": 768,
-      "HD": [
-        1536,
-        1024
-      ],
-      "horizontalOverflow": false
-    },
-    {
-      "lang": "en",
-      "width": 1024,
-      "HD": [
-        1536,
-        1024
-      ],
-      "horizontalOverflow": false
-    },
-    {
-      "lang": "en",
-      "width": 1440,
-      "HD": [
-        1536,
-        1024
-      ],
-      "horizontalOverflow": false
-    },
-    {
-      "lang": "es",
-      "width": 360,
-      "HD": [
-        1536,
-        1024
-      ],
-      "horizontalOverflow": false
-    },
-    {
-      "lang": "es",
-      "width": 390,
-      "HD": [
-        1536,
-        1024
-      ],
-      "horizontalOverflow": false
-    },
-    {
-      "lang": "es",
-      "width": 430,
-      "HD": [
-        1536,
-        1024
-      ],
-      "horizontalOverflow": false
-    },
-    {
-      "lang": "es",
-      "width": 768,
-      "HD": [
-        1536,
-        1024
-      ],
-      "horizontalOverflow": false
-    },
-    {
-      "lang": "es",
-      "width": 1024,
-      "HD": [
-        1536,
-        1024
-      ],
-      "horizontalOverflow": false
-    },
-    {
-      "lang": "es",
-      "width": 1440,
-      "HD": [
-        1536,
-        1024
-      ],
-      "horizontalOverflow": false
-    }
-  ]
+  "source": "browser-results.json",
+  "captureMatrix": 24,
+  "themes": [
+    "dark",
+    "light"
+  ],
+  "languages": [
+    "en",
+    "es"
+  ],
+  "widths": [
+    360,
+    390,
+    430,
+    768,
+    1024,
+    1440
+  ],
+  "captures": [
+    "full",
+    "hero",
+    "detail"
+  ],
+  "notes": "Capturas efectivas de la prueba actual. Revisión visual puntual en móvil y escritorio; no se afirma revisión humana exhaustiva de cada píxel."
 }

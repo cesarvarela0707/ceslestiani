@@ -1,34 +1,12 @@
-LUZ CELESTIA V11 — LISTA PARA VERCEL
+LUZ CELESTIA V12 — ACTUALIZACIÓN EN RAMA DE PRUEBA
 
-Este paquete YA CONTIENE la web programada y compilada.
-No tenés que pedirle a otra IA que la construya.
+1. Descomprimí el ZIP.
+2. En GitHub Desktop, verificá que Current Branch indique prueba.
+3. Repository > Show in Explorer.
+4. Copiá el CONTENIDO de esta carpeta (no la carpeta misma) al repositorio.
+5. Reemplazá los archivos cuando Windows lo solicite. No borres .git.
+6. GitHub Desktop > Changes > Commit to prueba > Push origin.
+7. Vercel > Deployments > seleccioná el deployment Preview de prueba > Visit.
+8. Revisá /en/ y /es/ antes de considerar publicarla.
 
-PASOS PARA SUBIRLA AL MISMO DOMINIO EN VERCEL
-
-1) Descomprimí el ZIP.
-2) Abrí la carpeta LUZ_CELESTIA_V11_LISTA_PARA_VERCEL.
-3) Si usás GitHub, copiá TODO su contenido a la raíz del repositorio conectado a tu proyecto de Vercel.
-4) Reemplazá los archivos anteriores.
-5) Hacé commit y push.
-6) Vercel detectará el cambio y generará el nuevo despliegue.
-7) Revisá estas rutas cuando termine:
-   - https://ceslestiani.vercel.app/en/
-   - https://ceslestiani.vercel.app/es/
-
-CONFIGURACIÓN YA INCLUIDA
-- Framework: Other
-- Build command: npm run build
-- Output directory: dist
-- Archivo usado: vercel.json
-
-NO HAY QUE AÑADIR
-- base de datos
-- variables secretas
-- pasarela de pago
-- backend
-
-CONTACTO COMERCIAL
-- Instagram: https://www.instagram.com/luzcelestia.ni/
-
-NOTA
-La carpeta dist ya está generada, pero Vercel igualmente puede reconstruirla con npm run build.
+La rama main y el dominio de producción permanecen intactos hasta que decidas integrarlos.

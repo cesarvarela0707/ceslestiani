@@ -15,6 +15,8 @@ await cp(path.join(root, 'assets'), path.join(dist, 'assets'), { recursive: true
 const esc = (s='') => String(s)
   .replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 
+const signet = '<span class="celestia-signet" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v12M8 6h8"/><path d="M12 21s-5.5-3.1-5.5-6.3A3.1 3.1 0 0 1 12 12.9a3.1 3.1 0 0 1 5.5 1.8C17.5 17.9 12 21 12 21Z"/></svg></span>';
+
 const icons = {
   arrow: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h11.17l-4.59 4.59L13 18l7-7-7-7-1.42 1.41L16.17 10H5v2Z" fill="currentColor"/></svg>',
   plus: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5h2v6h6v2h-6v6h-2v-6H5v-2h6z" fill="currentColor"/></svg>',
@@ -49,7 +51,7 @@ function productCard(product, i, lang, t){
         </div>
         <p class="piece-literal">${esc(product[`descripcion_literal_${lang}`])}</p>
         <p class="piece-desc">${esc(product[`descripcion_comercial_${lang}`])}</p>
-        <div class="piece-focus"><span>${esc(t.focusLabel)}</span><b>${esc(product[`detalle_foco_${lang}`])}</b></div>
+        <div class="piece-focus"><span><i class="detail-spark" aria-hidden="true">✦</i>${esc(t.focusLabel)}</span><b>${esc(product[`detalle_foco_${lang}`])}</b></div>
         <div class="piece-links">
           <button type="button" class="inline-link" data-open="${i}">${esc(t.detailButton)} ${icons.arrow}</button>
           <a class="inline-link" href="${instagram}" target="_blank" rel="noopener noreferrer">Instagram ${icons.arrow}</a>
@@ -115,7 +117,7 @@ function page(lang){
   <section class="hero">
     <div class="hero-grid">
       <div class="hero-copy" data-reveal>
-        <p class="eyebrow">${esc(t.heroEyebrow)}</p>
+        <div class="section-kicker">${signet}<span>${esc(t.heroEyebrow)}</span></div>
         <h1><span>${esc(t.heroTitleA)}</span><em>${esc(t.heroTitleB)}</em></h1>
         <p class="hero-body">${esc(t.heroBody)}</p>
         <div class="hero-buttons">
@@ -152,7 +154,7 @@ function page(lang){
   <section class="collection" id="collection">
     <div class="section-head" data-reveal>
       <div>
-        <p class="eyebrow">${esc(t.collectionEyebrow)}</p>
+        <div class="section-kicker">${signet}<span>${esc(t.collectionEyebrow)}</span></div>
         <h2>${esc(t.collectionTitle)}</h2>
       </div>
       <p>${esc(t.collectionIntro)}</p>
@@ -163,7 +165,7 @@ function page(lang){
   <section class="focus-section" id="focus">
     <div class="focus-layout">
       <div class="focus-panel" data-reveal>
-        <p class="eyebrow">${esc(t.focusEyebrow)}</p>
+        <div class="section-kicker">${signet}<span>${esc(t.focusEyebrow)}</span></div>
         <h2>${esc(t.focusTitle)}</h2>
         <p>${esc(t.focusBody)}</p>
         <div class="focus-points">
@@ -183,7 +185,7 @@ function page(lang){
   <section class="order" id="order">
     <div class="section-head section-head-order" data-reveal>
       <div>
-        <p class="eyebrow">${esc(t.orderEyebrow)}</p>
+        <div class="section-kicker">${signet}<span>${esc(t.orderEyebrow)}</span></div>
         <h2>${esc(t.orderTitle)}</h2>
       </div>
       <p>${esc(t.orderBody)}</p>

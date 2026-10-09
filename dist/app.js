@@ -104,7 +104,7 @@ if (hero && floating && 'IntersectionObserver' in window) {
   observer.observe(hero);
 }
 
-if (!reduceMotion) {
+if (!reduceMotion && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
   document.querySelectorAll('[data-tilt]').forEach((card) => {
     card.addEventListener('pointermove', (event) => {
       const rect = card.getBoundingClientRect();
